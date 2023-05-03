@@ -1,0 +1,11 @@
+name: PlayerFly
+version: 1.0
+main: catmoe.fallencrystal.playerfly
+api-version: "1.8"
+authors: [FallenCrystal_]
+description: idk
+website: miaomoe.net
+commands:
+ fly:
+   description: Just toggle fly
+   usage: /<command>
