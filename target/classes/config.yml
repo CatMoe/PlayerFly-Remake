@@ -1,6 +1,0 @@
-AutoEnablePermission: "fly.autoenable"
-UsePermission: "fly.use"
-FlyEnabled: "&aEnabled fly"
-FlyDisabled: "&cDisabled fly"
-NoPermission: "&cYou dont have permission to do that!"
-OnlyPlayer: "Only player."
