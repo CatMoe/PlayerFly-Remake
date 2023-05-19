@@ -24,11 +24,11 @@ public class Command
                 } else {
                     p.sendMessage(PlayerFly.color(PlayerFly.noPermission));
                 }
-                return false;
+                return true;
             }
         } else {
             sender.sendMessage(PlayerFly.color(PlayerFly.onlyPlayer));
         }
-        return false;
+        return true;
     }
 }
