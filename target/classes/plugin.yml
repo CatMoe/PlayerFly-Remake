@@ -1,6 +1,6 @@
 name: PlayerFly
-version: 1.0
-main: catmoe.fallencrystal.playerfly
+version: 1.1
+main: catmoe.fallencrystal.playerfly.PlayerFly
 api-version: "1.8"
 authors: [FallenCrystal_]
 description: idk

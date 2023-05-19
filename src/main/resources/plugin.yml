@@ -1,6 +1,6 @@
 name: PlayerFly
 version: ${project.version}
-main: catmoe.fallencrystal.playerfly
+main: catmoe.fallencrystal.playerfly.PlayerFly
 api-version: "1.8"
 authors: [FallenCrystal_]
 description: idk

@@ -10,8 +10,8 @@ public class Command
         implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, org.bukkit.command.Command cmd, String lable, String[] args) {
-        Player p = (Player) sender;
         if (sender instanceof Player) {
+            Player p = (Player) sender;
             if (args.length == 0 && cmd.getName().equalsIgnoreCase("fly")) {
                 if (p.hasPermission("fly.use") && !p.getAllowFlight()) {
                     p.setAllowFlight(true);
